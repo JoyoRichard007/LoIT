@@ -1,0 +1,38 @@
+<app-header></app-header>
+<div class="container-xl contenu">
+  <div class="table-responsive">
+      <div class="table-wrapper">
+          <div class="table-title">
+              <div class="row">
+                  <div class="col-sm-8"><h2>Statistiques de <b>l'utilisation de l'application</b></h2></div>
+
+              </div>
+          </div>
+          <table class="table table-striped table-hover table-bordered">
+              <thead class="bg-green text-light">
+                  <tr>
+                      <th>ID</th>
+                      <th>Username <i class="fa fa-sort"></i></th>
+                      <th>Nom</th>
+                      <th>Prénom <i class="fa fa-sort"></i></th>
+                      <th>Fonction</th>
+
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr *ngFor = 'let us of readData'>
+                      <td>{{us.id}}</td>
+                      <td>{{us.username}}</td>
+                      <td>{{us.nom}}</td>
+                      <td>{{us.prenom}}</td>
+                      <td>{{us.fonction}}</td>
+                  </tr>
+
+
+              </tbody>
+          </table>
+
+      </div>
+  </div>
+</div>
+

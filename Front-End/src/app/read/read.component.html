@@ -1,0 +1,76 @@
+<app-header></app-header>
+<div class="contenu">
+  <div class="table-responsive">
+      <div class="table-wrapper">
+          <div class="table-title">
+              <div class="row">
+                  <div class="col-sm-8"><h2>A propos des <b>Loi/décret</b></h2></div>
+                  <div class="col-sm-4">
+                      <div class="search-box">
+
+                          <button type="button" class="btn btn-primary px-4" routerLink="/add"><i class="material-icons text-white">add</i> Ajouter</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <table class="table table-striped table-hover table-bordered border border-rounded-2">
+              <thead class="bg-green text-light">
+                  <tr>
+                      <th>ID</th>
+                      <th>Titre <i class="fa fa-sort"></i></th>
+                      <th>Thématique</th>
+                      <th>Type <i class="fa fa-sort"></i></th>
+                      <th>Section</th>
+                      <th>Sous-section <i class="fa fa-sort"></i></th>
+                      <th>Chapitre</th>
+                      <th>Intitulé</th>
+                      <th>Contenu FR</th>
+                      <th>Contenu MG</th>
+                      <th>Spécifique</th>
+                      <th>Signature</th>
+                      <th>Actions</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>1</td>
+                      <td>TITRE I : DISPOSITIONS GENERALES                      </td>
+                      <td>Flore</td>
+                      <td>Loi</td>
+                      <td>SECTION I : DEFINITIONS</td>
+                      <td></td>
+                      <td>CHAPITRE I : DEFINITIONS ET TYPOLOGIE</td>
+                      <td>Article 1 : Au sens de la présente loi, on entend par :</td>
+                      <td>- Aire Protégée (AP) : un territoire délimité, terrestre, marin, côtier, aquatique dont
+                        les composantes présentent une valeur particulière notamment biologique, naturelle,
+                        esthétique, morphologique, historique, archéologique, cultuelle ou culturelle, et qui
+                        nécessite, dans l’intérêt général, une préservation multiforme ;
+                        Elle est gérée en vue de la protection et du maintien de la diversité biologique, de la
+                        conservation des valeurs particulières du patrimoine naturel et culturel et de
+                        l’utilisation durable des ressources naturelles contribuant à la réduction de la
+                        pauvreté ;</td>
+                      <td>Eto ny amin'ny teny Malagasy- Aire Protégée (AP) : un territoire délimité, terrestre, marin, côtier, aquatique dont
+                        les composantes présentent une valeur particulière notamment biologique, naturelle,
+                        esthétique, morphologique, historique, archéologique, cultuelle ou culturelle, et qui
+                        nécessite, dans l’intérêt général, une préservation multiforme ;
+                        Elle est gérée en vue de la protection et du maintien de la diversité biologique, de la
+                        conservation des valeurs particulières du patrimoine naturel et culturel et de
+                        l’utilisation durable des ressources naturelles contribuant à la réduction de la
+                        pauvreté ;</td>
+                      <td>Loi-n-2015-005_COAP</td>
+                      <td></td>
+                      <td>
+                        <a routerLink="/read" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
+                          <a routerLink="/edit" class="edit" title="Modifier" data-toggle="tooltip"><i class="material-icons text-success">&#xE254;</i></a>
+                          <a href="#" class="delete" title="Supprimer" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                      </td>
+                  </tr>
+
+
+              </tbody>
+          </table>
+
+      </div>
+  </div>
+</div>
+
