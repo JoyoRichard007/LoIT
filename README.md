@@ -1,4 +1,2 @@
 # Aloe
-Back-Office du projet Aloe (auparavant LoIT)
-
- 
+Back-Office du projet Aloe
